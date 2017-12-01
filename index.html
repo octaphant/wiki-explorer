@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GCI - Wikipedia Explorer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.css" />
+    <script src="src/main.js"></script>
+    <link rel="stylesheet" href="src/main.css">
+</head>
+
+<body>
+    <div class="ui container" id="rootContainer">
+        <div class="ui huge message page">
+            <h1 class="ui huge header">Google Code-in Wikipedia Explorer</h1>
+            <p>Page to search through Wikipedia articles by using their
+                <a href="https://en.wikipedia.org/w/api.php" target="_blank" rel="noopener">API endpoint</a> followed by actions and callback.</p>
+            <div class="ui action input" id="searchInputWrapper">
+                <input type="text" placeholder="Search..." id="searchInput">
+                <button class="ui button" id="searchButton">Search</button>
+            </div>
+        </div>
+        <div class="ui four stackable cards" id="articleWrapper"></div>
+    </div>
+</body>
+
+</html>

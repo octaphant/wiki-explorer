@@ -1,0 +1,11 @@
+#rootContainer {
+    padding: 1rem 0
+}
+
+#searchInputWrapper {
+    width: 100%
+}
+
+#articleWrapper {
+    padding-top: 1rem;
+}
