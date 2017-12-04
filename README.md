@@ -1,4 +1,7 @@
 # Google Code-in Wikipedia Explorer
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/187f571b72344e4eab4c4d95c0e45503)]
+
 * [Task](#task)
 * [Installing](#ins)
 * [Making contribution](#contr)
